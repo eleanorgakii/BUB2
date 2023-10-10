@@ -6,8 +6,8 @@ const logger = winston.loggers.get("defaultLogger");
 export const authOptions = {
   providers: [
     WikimediaProvider({
-      clientId: process.env.WIKIMEDIA_CLIENT_ID,
-      clientSecret: process.env.WIKIMEDIA_CLIENT_SECRET
+      clientId: process.env.ff81bff4337d745cde45c5f6f2e16487,
+      clientSecret: process.env.93611090454d460ada58b8213ab8b1734b147464
     })
   ],
   session: {
